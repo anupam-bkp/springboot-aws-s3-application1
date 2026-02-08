@@ -1,17 +1,5 @@
 spring:
   application:
     name: springboot-aws-s3-application1
-
-server:
-  port:8082
-
-cloud:
-  aws:
-    region:
-      static: ap-south-2
-    credentials:
-      access-key:
-      secret-access-key:
-    s3:
-      bucket:
-        name: anupam-s3demo-bucket1
+  profiles:
+    active: local

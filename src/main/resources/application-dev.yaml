@@ -1,0 +1,10 @@
+server:
+  port:8080
+
+cloud:
+  aws:
+    region:
+      static: ap-south-2
+    s3:
+      bucket:
+        name: anupam-s3demo-bucket1
